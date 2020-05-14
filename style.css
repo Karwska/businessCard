@@ -1,0 +1,15 @@
+.main {
+    background-color: #F8F8F8;
+    display: box;
+    border-radius: 16px;
+    max-width: 624px;
+    margin: 16px;
+}
+
+body {
+    background-color: #2C2141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
