@@ -1,15 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .main {
-    background-color: #F8F8F8;
-    display: box;
-    border-radius: 16px;
-    max-width: 624px;
-    margin: 16px;
+  background-color: #f8f8f8;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 16px;
+  max-width: 624px;
+  margin: 16px;
+  padding: 32px;
 }
 
-body {
-    background-color: #2C2141;
+.person {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    align-items: flex-start;
+}
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+.person__description--with-margin {
+  margin-bottom: 22px;
+}
+.person__info {
+  margin-bottom: 24px;
+}
+.person__link {
+  color: #e20613;
+  text-decoration: none;
+}
+.person__name {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+.person__picture {
+    margin-right: 32px;
+}
+.person__position {
+  font-size: 18px;
+  font-style: italic;
+  color: #545454;
+  margin: 0;
+}
+.special {
+  color: #ed6d05;
+  font-weight: normal;
 }
